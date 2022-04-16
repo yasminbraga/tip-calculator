@@ -89,3 +89,5 @@ handleSetBill(e) {
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yasminbraga)
 - Instagram - [@yasminbragat](https://www.instagram.com/yasminbragat/)
+
+Made with :purple_heart: by [Yasmin Braga](https://github.com/yasminbraga/)
