@@ -1,0 +1,29 @@
+.resultDisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.resultTitle {
+  h5 {
+    color: hsl(189, 41%, 97%);
+    font-size: 16px;
+  }
+
+  span {
+    font-size: 14px;
+    color: hsl(184, 14%, 56%);
+    font-weight: bold;
+  }
+}
+
+.resultValue {
+  color: hsl(172, 67%, 45%);
+  font-size: 32px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 52px;
+  }
+}

@@ -1,0 +1,39 @@
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 34px;
+}
+
+.inputIconContainer {
+  position: relative;
+
+  .icon {
+    position: absolute;
+    width: auto;
+    top: 1.2rem;
+    left: 1rem;
+  }
+
+  input {
+    width: 100%;
+    background: hsl(189, 41%, 97%);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    color: hsl(183, 100%, 15%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+  }
+}
+
+.errorField {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    color: #b47c6d;
+    font-weight: bold;
+  }
+}
